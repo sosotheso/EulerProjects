@@ -9,8 +9,8 @@ def is_palindrome(n):
 p = 0
 start_time = time.time()
 
-for i in range(9999, 999, -1):
-    for j in range(9999, 999, -1):
+for i in range(999999, 99999, -1):
+    for j in range(999999, 99999, -1):
         t = i * j
         if p > t:
             break
